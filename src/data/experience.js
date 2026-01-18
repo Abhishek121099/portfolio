@@ -1,31 +1,31 @@
 export const experience = [
   {
     id: 1,
-    position: 'Web Developer',
-    company: 'Weblink Pvt Ltd',
-    period: 'Aug 2025 – Present',
-    location: 'India',
+    position: "React Developer",
+    company: "Weblink Pvt Ltd",
+    period: "Aug 2022 – Present",
+    location: "Remote",
     responsibilities: [
-      'Built and updated internal websites using WordPress, HTML, and CSS',
-      'Created wireframes and user flows to support layout planning',
-      'Assisted in developing forms, dashboards, and internal tools',
-      'Handled plugin configuration, layout tweaks, and responsiveness testing',
-      'Documented user feedback and front-end changes'
+      "Worked on a live production business website",
+      "Delivered UI enhancements and maintained frontend features",
+      "Built a React SPA for an internal Business Services Management Portal",
+      "Developed reusable components using hooks",
+      "Integrated REST APIs",
+      "Ensured responsive design and cross-browser compatibility",
+      "Worked in Agile team with designers and backend developers"
     ]
   },
   {
     id: 2,
-    position: 'Junior Software Developer (Intern)',
-    company: 'TechSolutions IT Services Pvt. Ltd',
-    period: 'Jun 2020 – Dec 2020',
-    location: 'Pune, India',
+    position: "Junior Software Developer (Intern)",
+    company: "TechSolutions IT Services Pvt. Ltd",
+    period: "Jun 2020 – Dec 2020",
+    location: "India",
     responsibilities: [
-      'Built and styled web pages using HTML, CSS, and JavaScript',
-      'Practiced React fundamentals and component-based development',
-      'Connected front-end interfaces to backend systems using APIs and MySQL basics',
-      'Worked on form validation, dynamic content rendering, debugging, and testing',
-      'Used GitHub for version control and collaboration'
+      "Built responsive web pages using HTML, CSS, JavaScript",
+      "Converted design files into pixel-accurate layouts",
+      "Used mobile-first and media queries",
+      "Collaborated closely with UI/UX designers"
     ]
   }
-]
-
+];

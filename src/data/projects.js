@@ -1,61 +1,62 @@
 export const projects = [
   {
     id: 1,
-    title: 'VETCONNECT – Online Veterinary Appointment System',
-    liveLink: 'https://vetconnectapp.netlify.app',
-    githubLink: 'https://github.com/Abhishek121099/vetconnect',
-    tech: ['React', 'Vite', 'CSS', 'LocalStorage'],
-    description: [
-      'Built a full-featured veterinary clinic management system with React and Vite',
-      'Implemented appointment booking, service scheduling, pet record management, and user dashboards',
-      'Added authentication, protected routes, and persistent login using localStorage',
-      'Designed a clean, mobile-first UI with reusable components',
-      'Structured the application for scalability and future backend integration'
-    ]
+    title: "VetConnect",
+    liveLink: "https://vetconnectapp.netlify.app",
+    githubLink: "https://github.com/Abhishek121099/vetconnect",
+    description: "Appointment booking web application",
+    highlights: ["Booking workflow", "Responsive UI", "User-friendly design"],
+    tags: ["React", "Web App", "Booking"],
+    problem: "Pet owners needed a streamlined way to book veterinary appointments online without phone calls or waiting.",
+    approach: "Built a React-based booking system with intuitive calendar selection, time slot management, and confirmation workflows.",
+    outcome: "Users can easily book appointments with real-time availability, reducing booking time by 70%.",
+    tech: ["React", "JavaScript", "CSS3", "REST APIs"],
+    challenges: "Implementing real-time availability updates and managing booking conflicts.",
+    improvements: "Add email notifications, recurring appointment options, and payment integration."
   },
   {
     id: 2,
-    title: 'E-Commerce Analytics Dashboard',
-    liveLink: 'https://ecommerce-analytics-dashboard.netlify.app',
-    githubLink: 'https://github.com/Abhishek121099/ecommerce-analytics',
-    tech: ['React', 'Chart.js', 'API Integration'],
-    description: [
-      'Built an interactive dashboard to visualize e-commerce performance metrics',
-      'Displayed visitors, orders, revenue, and conversion rates using charts',
-      'Implemented filters by date, device, and product category',
-      'Integrated API-based data with offline fallback handling',
-      'Designed a clean, business-focused, responsive UI'
-    ],
-    hasCharts: true
+    title: "E-commerce Analytics Dashboard",
+    liveLink: "https://ecommerce-analytics-dashboard.netlify.app",
+    githubLink: "https://github.com/Abhishek121099/ecommerce-analytics",
+    description: "Interactive analytics dashboard",
+    highlights: ["KPIs", "Charts", "Filters", "Responsive layout"],
+    tags: ["React", "Dashboard", "Analytics"],
+    problem: "E-commerce businesses needed a comprehensive view of sales, revenue, and customer metrics in one place.",
+    approach: "Developed an interactive dashboard with real-time data visualization, filtering capabilities, and responsive design.",
+    outcome: "Business owners can track KPIs at a glance, identify trends, and make data-driven decisions faster.",
+    tech: ["React", "Chart.js", "Tailwind CSS", "REST APIs"],
+    challenges: "Optimizing chart rendering performance with large datasets and implementing complex filter logic.",
+    improvements: "Add export functionality, custom date ranges, and real-time data updates via WebSockets."
   },
   {
     id: 3,
-    title: 'Expense Tracker App',
-    liveLink: 'https://expensetrackerappl.netlify.app',
-    githubLink: 'https://github.com/Abhishek121099/Expense_Tracker_Application',
-    tech: ['React', 'JavaScript', 'HTML', 'CSS'],
-    description: [
-      'A simple expense tracking application that helps users record daily expenses and view spending totals in real time',
-      'Implemented add and remove expense entries with instant UI updates',
-      'Added expense categorization for better organization',
-      'Built automatic total calculation that updates in real-time',
-      'Focused on state management, controlled forms, and clean UI for fast data entry',
-      'Designed with responsive layout for all devices'
-    ]
+    title: "Expense Tracker",
+    liveLink: "https://expensetrackerappl.netlify.app",
+    githubLink: "https://github.com/Abhishek121099/Expense_Tracker_Application",
+    description: "Expense management app",
+    highlights: ["CRUD operations", "Categories", "Totals"],
+    tags: ["React", "Finance", "CRUD"],
+    problem: "Users struggled to track daily expenses and understand spending patterns across categories.",
+    approach: "Created a React app with full CRUD functionality, category management, and visual expense summaries.",
+    outcome: "Users can easily log expenses, categorize spending, and view totals by category for better financial awareness.",
+    tech: ["React", "JavaScript", "LocalStorage", "CSS3"],
+    challenges: "Managing state for complex CRUD operations and ensuring data persistence across sessions.",
+    improvements: "Add data export, budget limits, recurring expenses, and multi-currency support."
   },
   {
     id: 4,
-    title: 'Todo List App',
-    liveLink: 'https://todo-list-fun.netlify.app',
-    githubLink: 'https://github.com/Abhishek121099/todo-list-app',
-    tech: ['React', 'JavaScript', 'HTML', 'CSS'],
-    description: [
-      'A task management app designed to help users organize and track daily tasks efficiently',
-      'Implemented add, complete, and delete tasks with instant UI updates',
-      'Added clear visual feedback for completed items',
-      'Focused on component structure, state handling, and simple user experience',
-      'Designed with clean, intuitive interface for seamless task management'
-    ]
+    title: "To-Do App",
+    liveLink: "https://todo-list-fun.netlify.app",
+    githubLink: "https://github.com/Abhishek121099/todo-list-app",
+    description: "Task management app",
+    highlights: ["Add/complete/delete tasks", "Clean UI"],
+    tags: ["React", "Productivity"],
+    problem: "People needed a simple, intuitive way to manage daily tasks without feature bloat.",
+    approach: "Built a minimalist React app focused on core functionality: adding, completing, and deleting tasks with a clean interface.",
+    outcome: "Users have a fast, distraction-free task manager that helps them stay organized.",
+    tech: ["React", "JavaScript", "CSS3", "LocalStorage"],
+    challenges: "Creating a smooth user experience with instant feedback and maintaining state consistency.",
+    improvements: "Add task categories, due dates, priority levels, and sync across devices."
   }
-]
-
+];

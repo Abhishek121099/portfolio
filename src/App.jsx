@@ -1,32 +1,32 @@
-import Navbar from './sections/Navbar'
-import Hero from './sections/Hero'
-import About from './sections/About'
-import Skills from './sections/Skills'
-import Projects from './sections/Projects'
-import Experience from './sections/Experience'
-import DesignSprints from './sections/DesignSprints'
-import Resume from './sections/Resume'
-import Contact from './sections/Contact'
-import { MascotProvider } from './components/mascot/MascotContext'
-import MascotController from './components/mascot/MascotController'
+import { ThemeProvider } from './context/ThemeContext';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import Hero from './components/sections/Hero';
+import About from './components/sections/About';
+import Skills from './components/sections/Skills';
+import Projects from './components/sections/Projects';
+import Experience from './components/sections/Experience';
+import Education from './components/sections/Education';
+import Contact from './components/sections/Contact';
 
 function App() {
   return (
-    <MascotProvider>
-      <div className="App min-h-screen">
+    <ThemeProvider>
+      <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
         <Navbar />
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Experience />
-        <DesignSprints />
-        <Resume />
-        <Contact />
-        <MascotController />
+        <main>
+          <Hero />
+          <About />
+          <Skills />
+          <Projects />
+          <Experience />
+          <Education />
+          <Contact />
+        </main>
+        <Footer />
       </div>
-    </MascotProvider>
-  )
+    </ThemeProvider>
+  );
 }
 
-export default App
+export default App;

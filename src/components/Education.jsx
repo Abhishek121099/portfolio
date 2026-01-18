@@ -12,7 +12,7 @@ const education = [
     institution: 'James Cook University',
     year: '2024',
     icon: FaGraduationCap,
-    image: '/images/PHOTO-2024-05-27-17-28-16.jpg'
+    image: '"\images\IMG_3470.jpg"'
   },
   {
     id: 2,

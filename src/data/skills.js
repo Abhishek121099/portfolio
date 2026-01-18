@@ -1,34 +1,31 @@
 export const skills = {
-  frontend: {
-    title: 'Frontend Development',
-    items: [
-      'React',
-      'JavaScript',
-      'HTML5',
-      'CSS3',
-      'Responsive Web Design',
-      'Component-based Architecture'
-    ]
-  },
-  uiux: {
-    title: 'UI / UX',
-    items: [
-      'Figma (Wireframing & Prototyping)',
-      'User Flows',
-      'Mobile-First Design',
-      'UI Awareness'
-    ]
-  },
-  tools: {
-    title: 'Tools & Platforms',
-    items: [
-      'Git & GitHub',
-      'WordPress & Elementor',
-      'Jira & Slack',
-      'API Integration',
-      'SQL / MySQL',
-      'Troubleshooting & Debugging'
-    ]
-  }
-}
-
+  frontend: [
+    "React.js",
+    "JavaScript (ES6+)",
+    "TypeScript (Basic/Intermediate)",
+    "HTML5",
+    "CSS3 / SASS",
+    "Tailwind CSS",
+    "Bootstrap",
+    "React Router",
+    "Redux / Context API"
+  ],
+  backend: [
+    "Node.js (Basic)",
+    "RESTful APIs",
+    "MySQL",
+    "PostgreSQL",
+    "SQL"
+  ],
+  tools: [
+    "Git / GitHub",
+    "Jira",
+    "Agile / Scrum",
+    "Figma",
+    "Webpack / Vite"
+  ],
+  cms: [
+    "WordPress",
+    "Shopify Liquid"
+  ]
+};
