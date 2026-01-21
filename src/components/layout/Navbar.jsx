@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
   
-  const sectionIds = ['home', 'about', 'skills', 'projects', 'experience', 'education', 'contact'];
+  const sectionIds = ['home', 'about', 'skills', 'experience', 'education', 'projects', 'design-sprints', 'contact'];
   const activeSection = useScrollSpy(sectionIds);
 
   useEffect(() => {
@@ -24,9 +24,10 @@ const Navbar = () => {
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },
     { id: 'skills', label: 'Skills' },
-    { id: 'projects', label: 'Projects' },
     { id: 'experience', label: 'Experience' },
     { id: 'education', label: 'Education' },
+    { id: 'projects', label: 'Projects' },
+    { id: 'design-sprints', label: 'Design Sprints' },
     { id: 'contact', label: 'Contact' }
   ];
 

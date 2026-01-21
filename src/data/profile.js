@@ -1,12 +1,12 @@
 export const profile = {
   name: "Abhishek Dongare",
-  role: "React Developer",
+  role: "FrontEnd Developer",
   location: "Brisbane, Australia",
   email: "abhishekdongare99@gmail.com",
   phone: "+61 0432006905",
   linkedin: "https://linkedin.com/in/abhishek-dongare-3404331ab",
   github: "https://github.com/Abhishek121099",
-  summary: "React Developer with hands-on experience building and maintaining production web applications and React-based Single Page Applications. Strong in JavaScript (ES6+), responsive UI development, reusable component design, and REST API integration. Comfortable working in Agile environments and collaborating with designers, backend developers, and stakeholders to deliver clean, user-focused interfaces.",
+  summary: "I'm a front-end developer who enjoys building clean, responsive, and reliable web applications. I work primarily with React and modern JavaScript (ES6+), focusing on reusable components, intuitive user interfaces, and performance-friendly designs. I've worked on production applications and have experience supporting live systems, which has helped me understand how real users interact with software. I enjoy collaborating in Agile teams alongside designers and backend developers to turn ideas into polished, user-focused digital experiences.",
   cvPath: "/AbhishekDongare_CV.pdf" // CV file in public folder
 };
 

@@ -17,15 +17,15 @@ export const experience = [
   },
   {
     id: 2,
-    position: "Junior Software Developer (Intern)",
+    position: "Application Support Technician",
     company: "TechSolutions IT Services Pvt. Ltd",
     period: "Jun 2020 – Dec 2020",
     location: "India",
     responsibilities: [
-      "Built responsive web pages using HTML, CSS, JavaScript",
-      "Converted design files into pixel-accurate layouts",
-      "Used mobile-first and media queries",
-      "Collaborated closely with UI/UX designers"
+      "Provided Level 1 IT and application support for internal users and clients, troubleshooting issues related to web applications, browsers, and desktop environments",
+      "Assisted users with login issues, UI bugs, and basic application errors, escalating complex issues to developers when required",
+      "Supported testing and deployment of web-based applications, ensuring cross-browser compatibility and smooth user experience",
+      "Collaborated with developers to identify, reproduce, and document bugs, while maintaining basic technical documentation for recurring issues"
     ]
   }
 ];
