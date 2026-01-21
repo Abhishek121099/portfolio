@@ -68,21 +68,35 @@ The contact form uses EmailJS to send emails directly to your inbox. Follow thes
 
 1. Go to **Email Templates** in EmailJS dashboard
 2. Click **Create New Template**
-3. Use this template structure:
+3. Configure the template as follows:
 
+**Template Name:** Portfolio Contact Form
+
+**Subject:**
 ```
-Subject: {{subject}} - Portfolio Contact Form
+{{subject}} - Portfolio Contact Form
+```
 
-From: {{from_name}} ({{from_email}})
+**Content:**
+```
+New message from your portfolio contact form:
+
+From: {{from_name}}
+Email: {{from_email}}
+Subject: {{subject}}
 
 Message:
 {{message}}
 
 ---
+Reply to: {{reply_to}}
 This email was sent from your portfolio contact form.
 ```
 
-4. Note your **Template ID**
+**To Email:** Make sure to set the recipient email to: `abhishekdongare99@gmail.com` (or use `{{to_email}}` variable if your template supports it)
+
+4. **Important:** In the template settings, set the recipient email to `abhishekdongare99@gmail.com`
+5. Note your **Template ID**
 
 ### Step 4: Get Public Key
 

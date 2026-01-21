@@ -56,7 +56,8 @@ const Contact = () => {
           from_email: formData.email,
           subject: formData.subject || 'Portfolio Contact Form',
           message: formData.message,
-          to_email: profile.email
+          to_email: 'abhishekdongare99@gmail.com',
+          reply_to: formData.email
         },
         publicKey
       );
