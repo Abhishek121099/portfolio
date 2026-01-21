@@ -9,6 +9,7 @@ import DesignSprints from './components/sections/DesignSprints';
 import Experience from './components/sections/Experience';
 import Education from './components/sections/Education';
 import Contact from './components/sections/Contact';
+import Chatbot from './components/ui/Chatbot';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Contact />
         </main>
         <Footer />
+        <Chatbot />
       </div>
     </ThemeProvider>
   );
